@@ -1,0 +1,13 @@
+{
+    "host": {
+        "address": "0.0.0.0",
+        "port": 3000
+    },
+    "database": {
+        "mongodb": {
+            "timeout": 5000,
+            "mongouri": "mongodb+srv://admin:1234@cluster0.tlief.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+            "dbname": "productdb"
+        }
+    }
+}
